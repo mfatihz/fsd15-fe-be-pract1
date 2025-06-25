@@ -9,7 +9,7 @@ console.log(process.argv[0]);
 console.log(process.argv[1]);
 ```
 
-2. jalankan file test.js melalui node pada terminal
+2. jalankan file test.js melalui node pada terminal\
 asumsi: terminal dibuka di folder yang berisi test.js di atas
 ```
 node test.js

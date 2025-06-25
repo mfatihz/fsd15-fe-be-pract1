@@ -1,5 +1,17 @@
 # Node
-1. Create
+1. Create test.js sebagi test file koneksi node.js
+```
+// Simplified example
+console.log(process.argv[0]);
+console.log(process.argv[1]);
+```
+
+2. jalankan file test.js melalui node
+```
+node test.js
+```
+
+
 # Node & Express
 0. Create Project structures
 - src/
@@ -83,4 +95,9 @@ router.get("/", function (req, res) {
 });
 
 module.exports = router;
+```
+
+8. jalankan
+```
+npm run dev
 ```

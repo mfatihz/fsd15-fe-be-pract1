@@ -37,13 +37,14 @@ node test.js
 ```
 npm init -y
 ```
-Langkah ini akan menghasilkan package.json, package-lock.json, dan node_modules (?)
+Langkah ini akan menghasilkan package.json.
 
 2. Install Dependencies
 ```
 npm i express dotenv
 npm i -D nodemon
 ```
+Langkah ini akan menghasilkan package-lock.json dan node_modules.
 
 3. Edit package.json
 tambahkan:

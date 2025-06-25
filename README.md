@@ -1,4 +1,7 @@
 # Node
+
+Note: asumsi node sudah terinstall
+
 1. Create test.js sebagi test file koneksi node.js
 ```
 // Simplified example
@@ -6,13 +9,15 @@ console.log(process.argv[0]);
 console.log(process.argv[1]);
 ```
 
-2. jalankan file test.js melalui node
+2. jalankan file test.js melalui node pada terminal
+asumsi: terminal dibuka di folder yang berisi test.js di atas
 ```
 node test.js
 ```
 
 
 # Node & Express
+
 0. Create Project structures
 - src/
     - config/
@@ -32,7 +37,7 @@ node test.js
 ```
 npm init -y
 ```
-Langkah ini akan menghasilkan package.json dan package-lock.json
+Langkah ini akan menghasilkan package.json, package-lock.json, dan node_modules (?)
 
 2. Install Dependencies
 ```
@@ -54,6 +59,7 @@ tambahkan:
 node_modules
 .env
 ```
+dipakai nanti...!
 
 5. Modifikasi isi .env.example dan .env:
 ```

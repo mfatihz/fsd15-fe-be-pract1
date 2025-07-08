@@ -18,7 +18,7 @@ node test.js
 
 # Node & Express
 
-0. Create Project structures
+##### 0. Create Project structures
 - src/
     - config/
     - controllers/
@@ -32,21 +32,21 @@ node test.js
 - .env.example
 - .gitignore
 
-1. Initiate Project
+##### 1. Initiate Project
 
 ```
 npm init -y
 ```
 Langkah ini akan menghasilkan package.json.
 
-2. Install Dependencies
+##### 2. Install Dependencies
 ```
 npm i express dotenv
 npm i -D nodemon
 ```
 Langkah ini akan menghasilkan package-lock.json dan node_modules.
 
-3. Edit package.json
+##### 3. Edit package.json
 tambahkan:
 ```
 "scripts": {
@@ -55,19 +55,19 @@ tambahkan:
   },
 ```
 
-4. modifikasi isi .gitignore
+##### 4. modifikasi isi .gitignore
 ```
 node_modules
 .env
 ```
 dipakai nanti...!
 
-5. Modifikasi isi .env.example dan .env:
+##### 5. Modifikasi isi .env.example dan .env:
 ```
 SERVER_PORT=3000
 ```
 
-6. Modifikasi isi index.js
+##### 6. Modifikasi isi index.js
 ```
 const path = require("path");
 
@@ -88,7 +88,7 @@ app.listen(process.env.SERVER_PORT || 3000, () => {
 });
 ```
 
-7. Modifikasi is routes/router.js
+##### 7. Modifikasi is routes/router.js
 ```
 const express = require("express");
 
@@ -104,7 +104,7 @@ router.get("/", function (req, res) {
 module.exports = router;
 ```
 
-8. jalankan
+##### 8. jalankan
 ```
 npm run dev
 ```

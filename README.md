@@ -18,7 +18,7 @@ node test.js
 
 # Node & Express
 
-#### 0. Create Project structures
+### 0. Create Project structures
 - src/
     - config/
     - controllers/
